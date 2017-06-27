@@ -1,0 +1,251 @@
+<!--Desenvolvido por Ygor Prata - Desnvolvedor Front-end-->
+<!--Data do Projeto: Junho/2017 (Projeto de gênero livre)-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="icon" href="images/favicon.png"/>
+	<title>Minuto News</title>
+	<!--Metas tags-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta content="As principais notícias do dia estão aqui! Jornal Minuto News. " name="description"/>
+  	<meta content="Minuto News, Notícias, Jornal de Notícias, Notícias Online, Jornal" name="keywords"/>
+  	<meta name="author" content="Ygor Prata"/>
+  	<meta name="replay-to" content="ygordeveloper@gmail.com"/>
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu-fixo.css" />
+</head>
+<body>
+<div id="container-geral">
+	<!--== MENU-fixo ==-->
+	<div id="ha-header" class="ha-header">
+		<div id="menu-fixo">
+			<div id="menu2">
+				<ul>
+					<li><a href="#">INÍCIO</a></li>
+					<li>
+						<a href="#" style="border-bottom: 4px solid #374457;">BRASIL<img src="images/seta-botao-branco.png"></a>
+						<!--== SUB-MENU ==-->
+						<ul id="sub-menu2">
+							<li><a href="#">Submenu 01</a><hr></li>
+							<li><a href="#">Submenu 02</a><hr></li>
+							<li><a href="#">Submenu 03</a><hr></li>
+							<li><a href="#">Submenu 04</a><hr></li>
+							<li><a href="#">Submenu 05</a></li>
+						</ul>
+					</li>
+					<li><a href="#">MUNDO</a></li>
+					<li><a href="#">BLOGS</a></li>
+					<li><a href="#">ASSINE</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--== TOPO ==-->
+	<header>
+		<div class="container1090">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo-minuto-news.png" alt="logo minuto news" title="logo minuto news"/></a>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="#">Início</a></li>
+					<li>
+						<a href="#">Brasil<img src="images/seta-botao.png"></a>
+						<!--== SUB-MENU ==-->
+						<ul id="sub-menu">
+							<li><br><a href="#">Submenu 01</a></li>
+							<li><a href="#">Submenu 02</a></li>
+							<li><a href="#">Submenu 03</a></li>
+							<li><a href="#">Submenu 04</a></li>
+							<li><a href="#">Submenu 05</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Mundo</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">Assine</a></li>
+				</ul>
+			</div>
+		</div>	
+	</header>
+
+	<section class="ha-waypoint" data-animate-down="ha-header-hide" data-animate-up="ha-header-small"></section>
+
+	<!--== SLIDE ==-->
+	<div class="box-slider">
+		<span id="prev"><img src="images/slide/prev.jpg"></span>
+		<span id="next"><img src="images/slide/next.jpg"></span>
+		<span class="pager"></span>
+		
+		<div class="slider">
+			<div class="slider-item"><img id="s1"></div>
+			<div class="slider-item"><img id="s2"></div>
+			<div class="slider-item"><img id="s3"></div>
+			<div class="slider-item"><img id="s4"></div>
+			<div class="slider-item"><img id="s5"></div>
+
+		</div>
+	</div>
+
+	<!--== FILTROS EDITORIAIS ==-->	
+	<div id="container-geral-editoriais">
+		<div class="container1090">
+			<div id="container-geral-filtro">
+				<h2>EDITORIAIS</h2>
+				<div class="filtro">
+					<P>Filtrar por:</P>
+					<select width="130px" id="select-editoriais">
+					  <option value="todos">TODOS</option>
+					  <option value="esporte">ESPORTE</option>
+					  <option value="pais">PAIS</option>
+					  <option value="rio">RIO</option>
+					  <option value="cultura">CULTURA</option>
+					  <option value="internacional">INTERNACIONAL</option>
+					</select>
+				</div>
+				<div class="filtro">
+					<P>Ordenar por:</P>
+					<select width="150px">
+					  <option value="data">DATA</option>
+					  <option value="alfabetico">ALFABÉTICO</option>
+					</select>
+				</div>
+			</div>
+
+
+			<!--==BOX EDITORIAIS ==-->
+			<div id="container-geral-box"></div>
+		</div>
+	</div>
+	<section class="ha-waypoint" data-animate-down="ha-header-show" data-animate-up="ha-header-hide"></section>
+	<div id="box-traçado-bottom"></div>
+
+	<!--== GRAFICO ==-->
+	<div id="container-grafico">
+		<h2>EDITORIAS MAIS ACESSADAS</h2>
+		<div class="container1090">
+			<div id="columnchart_values"></div>
+			<div class="box-grafico">
+				<br><br>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+			</div>
+			<div class="box-grafico">
+				<h3>Título Aqui</h3><br>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+			</div>
+		</div>	
+	</div>
+	<div id="box-traçado-top"></div>
+
+	<!--== MAPA ==-->
+	<div id="map" style="width: 100%; height: 500px;"></div>
+	
+	<!--== CONTATOS ==-->
+	<div id="container-contatos">
+		<!--== CONTATOS(left) ==-->
+		<div id="container-left">
+			<div id="contatos-left">
+				<h2>ENTRE EM CONTATO</h2>
+				<h3>Onde nos achar</h3>
+				<p>Rua dos Alfeneiros, número 4<br>00-91102<br>Little Whitning<br>Londres/Inglaterra</p>
+				<br>
+				<p>(21) 4004-1234<br>(21) 4004-4321</p>
+				<br>
+				<p>contato@minutonews.com.br</p>
+				<br>
+				<p>Aberto de segunda a sexta das 09h as 19h</p>
+			</div>	
+		</div>
+
+		<!--== CONTATOS(right) ==-->
+		<div id="container-right">
+			<div id="contatos-right">
+				<h2>Mande uma mensagem</h2>
+				<form name="formulario" id="idform" action="" >
+					<label>
+						<p>Seu nome:</p>
+						<input type="text" name="nome" required tabindex="1" size="45" maxlength="35" />
+					</label>
+
+					<label>
+						<p>Email:</p>
+						<input type="text" name="email" required tabindex="2" size="45" maxlength="35" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" title="E-mail Inválido"/>
+					</label>
+
+					<p>Mensagem:</p>
+					<textarea rows="8" cols="100" tabindex="3"></textarea>
+					<button type="submit" id="btenviar">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<footer><p>&copy; Entrevista | Front-End</p></footer>
+
+
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/cycle.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<!--Scripts-Maps-->
+<script>
+var map;
+function initMap() {
+	map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 17,
+		scaleControl: false,
+		scrollwheel: false,
+		disableDoubleClickZoom: true,
+      	center: new google.maps.LatLng(51.521329, -0.157304),
+      	mapTypeId: 'roadmap'
+    });
+
+    var icons = {
+      pinMark: {
+      icon: 'images/pin-mark.png'
+      }
+  	};
+
+    var features = [{
+      position: new google.maps.LatLng(51.521329, -0.157304),
+      type: 'pinMark'
+    }];
+
+    features.forEach(function(feature) {
+      var marker = new google.maps.Marker({
+        position: feature.position,
+        icon: icons[feature.type].icon,
+        map: map
+      });
+    });
+ }
+ </script>
+    
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwdkzs1dBTJRPXd8NB_sf88afJxiB2ICk&callback=initMap">
+</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<!--Scripts Menu-fixo -->
+<script>
+var $head = $( '#ha-header' );
+	$( '.ha-waypoint' ).each( function(i) {
+		var $el = $( this ),
+			animClassDown = $el.data( 'animateDown' ),
+			animClassUp = $el.data( 'animateUp' );
+
+		$el.waypoint( function( direction ) {
+			if( direction === 'down' && animClassDown ) {
+				$head.attr('class', 'ha-header ' + animClassDown);
+			}
+			else if( direction === 'up' && animClassUp ){
+				$head.attr('class', 'ha-header ' + animClassUp);
+			}
+		}, { offset: '100%' } );
+	} );
+</script>
+
+</body>
+</html>
+
+
