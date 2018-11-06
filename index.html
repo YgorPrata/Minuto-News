@@ -8,24 +8,27 @@
 	<!--Metas tags-->
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="theme-color" content="#a93030">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#a93030">
+	<meta name="msapplication-navbutton-color" content="#a93030">
 	<meta content="As principais notícias do dia estão aqui! Jornal Minuto News. " name="description"/>
   	<meta content="Minuto News, Notícias, Jornal de Notícias, Notícias Online, Jornal" name="keywords"/>
   	<meta name="author" content="Ygor Prata"/>
-  	<meta name="replay-to" content="ygordeveloper@gmail.com"/>
+  	<meta name="replay-to" content="ygorpratta@gmail.com"/>
   	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/menu-fixo.css" />
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" />
 </head>
 <body>
 <div id="container-geral">
 	<!--== MENU-fixo ==-->
-	<div id="ha-header" class="ha-header">
+	<!--div id="ha-header" class="ha-header">
 		<div id="menu-fixo">
 			<div id="menu2">
 				<ul>
 					<li><a href="#">INÍCIO</a></li>
 					<li>
 						<a href="#" style="border-bottom: 4px solid #374457;">BRASIL<img src="images/seta-botao-branco.png"></a>
-						<!--== SUB-MENU ==-->
+						<!--== SUB-MENU ==->
 						<ul id="sub-menu2">
 							<li><a href="#">Submenu 01</a><hr></li>
 							<li><a href="#">Submenu 02</a><hr></li>
@@ -40,13 +43,14 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</div-->
 	<!--== TOPO ==-->
 	<header>
 		<div class="container1090">
 			<div id="logo">
 				<a href="index.html"><img src="images/logo-minuto-news.png" alt="logo minuto news" title="logo minuto news"/></a>
 			</div>
+			
 			<div id="menu">
 				<ul>
 					<li><a href="#">Início</a></li>
@@ -64,6 +68,31 @@
 					<li><a href="#">Mundo</a></li>
 					<li><a href="#">Blogs</a></li>
 					<li><a href="#">Assine</a></li>
+				</ul>
+			</div>
+
+			<span id="menu-butao"><img src="images/menu.png" width="25px" /></span>
+			<div id="menu-mobile">
+				<ul>
+					<a href="#"><li><a href="#">Início</a></li></a>
+					<a href="#">
+						<li id="sub-menu-link">
+							<a href="#">Brasil<img src="images/seta-botao.png"></a></li>
+					</a>
+		
+					<!--== SUB-MENU ==-->
+					<div id="sub-menu-mobile">
+						<ul>
+							<a href="#"><li><a href="#">Submenu 01</a></li></a>
+							<a href="#"><li><a href="#">Submenu 02</a></li></a>
+							<a href="#"><li><a href="#">Submenu 03</a></li></a>
+							<a href="#"><li><a href="#">Submenu 04</a></li></a>
+							<a href="#"><li><a href="#">Submenu 05</a></li></a>
+						</ul>
+					</div>
+					<a href="#"><li><a href="#">Mundo</a></li></a>
+					<a href="#"><li><a href="#">Blogs</a></li></a>
+					<a href="#"><li><a href="#">Assine</a></li></a>
 				</ul>
 			</div>
 		</div>	
@@ -124,13 +153,14 @@
 	<div id="container-grafico">
 		<h2>EDITORIAS MAIS ACESSADAS</h2>
 		<div class="container1090">
-			<div id="columnchart_values"></div>
-			<div class="box-grafico">
-				<br><br>
+			<!--div id="columnchart_values">/div-->
+			
+			<div id="box-grafico">
+				<h3>Título Aqui</h3><br>
 	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 			</div>
-			<div class="box-grafico">
-				<h3>Título Aqui</h3><br>
+			<div id="box-grafico2">
+				<br><br>
 	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 			</div>
 		</div>	
@@ -138,7 +168,7 @@
 	<div id="box-traçado-top"></div>
 
 	<!--== MAPA ==-->
-	<div id="map" style="width: 100%; height: 500px;"></div>
+	<div id="map""></div>
 	
 	<!--== CONTATOS ==-->
 	<div id="container-contatos">
@@ -174,7 +204,7 @@
 
 					<p>Mensagem:</p>
 					<textarea rows="8" cols="100" tabindex="3"></textarea>
-					<button type="submit" id="btenviar">Enviar</button>
+					<center><button type="submit" id="btenviar">Enviar</button></center>
 				</form>
 			</div>
 		</div>
