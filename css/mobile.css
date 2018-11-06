@@ -1,0 +1,379 @@
+/*-------Mobile_Style----------------------------------------------*/
+
+@media all and (max-width:1090px){
+  /*--GERAL---*/
+  .container1090{
+    width: 100%;
+  }
+
+  /*--TOPO---*/
+  header{
+    width: 100%;
+    height: 110px;
+  }
+  #logo img{
+    margin-top: 22px;
+    margin-left: 42px;
+    margin-bottom: 22px;
+    width: 300px;
+  }
+
+  /*--MENU-MOBILE--*/
+  #menu{
+    display: none;
+    width: 100%;
+  }
+  #menu-butao{
+    display: block; 
+  }
+  #menu-mobile{
+    display: none;
+  }
+
+  /*--SLIDE--*/
+  .box-slider, .slider, .slider-item, .slider-item img{
+    width: 100%;
+    height: 330px;
+  }
+
+  /*---PAGINAÇÃO-slide---*/
+  .pager{
+    margin-left: 43.7%;
+    margin-top: 290px;
+  }
+  .pager a{
+    width: 10px;
+    height: 10px;
+  }
+
+  /*---NEXT/PREV-slide---*/
+  #next, #prev{
+    width: 10px;
+    margin-top: 150px;
+    z-index: 999;
+  }
+  #next{
+    position: relative;
+    margin: none;
+    float: right;
+    margin-right: 38px;
+  }
+  #prev{
+    float: left;
+    margin-left: 20px;
+  }
+  #next img{
+    width: 35px;
+  }
+  #prev img{
+    width: 35px;
+  }
+
+  /*---EDITORIAIS---*/
+  #container-geral-editoriais{
+    margin-top: 80px;
+    height: 600px;
+  }
+  #container-geral-editoriais h2{
+    float: none;
+    text-align: center;
+    margin: 40px;
+    font-size: 25px;
+  }
+
+  /*---FILTRO EDITORIAIS---*/
+  #container-geral-filtro{
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+  }
+  .filtro{
+    width: 41.9%;
+    height: 30px;
+    margin: 4%;
+    float: left;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  }
+  .filtro p{
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+  .filtro select{
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+  }
+
+  /*---BOX EDITORIAIS---*/
+  #container-geral-box{
+    width: 100%;
+  }
+  .box-editoriais{
+    width: 45.5%;
+    margin: 2.3%;
+    margin-top: 35px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid #b22d30;
+  }
+
+  /*---CONTAINER GRAFICO---*/
+  #box-traçado-bottom{
+    width: 97%;
+  }
+  #box-traçado-top{
+    width: 97%;
+  }
+  #container-grafico{
+    width: 100%;
+    height: auto;
+  }
+  #container-grafico h2{
+    float: none;
+    text-align: center;
+  }
+  #columnchart_values{
+    width: 100%;
+    margin-top: 35px;
+    float: left;
+    margin-left: 0px;
+  }
+  #box-grafico{
+    width: 43%;
+    padding: 0px;
+    float: left;
+    margin-left: 4.5%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+  }
+  #box-grafico2{
+    width: 43%;
+    padding: 0px;
+    float: left;
+    margin-left: 4.5%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+  }
+
+  /*----CONTATOS(left)----*/
+  #container-left{
+    width: 100%;
+    height: 600px;
+    float: none;
+  }
+  #contatos-left{
+    width: 350px;
+    float: none;
+    margin-top: 150px;
+  }
+  #contatos-left h3{
+    margin-top: 30px;
+  }
+
+  /*----CONTATOS(right)----*/
+  #container-right{
+    width: 100%;
+    height: 750px;
+    float: right;
+  }
+  #contatos-right{
+    width: 520px;
+    float: none;
+    margin-top: 180px;
+  }
+  #contatos-right h2{
+    margin-left: 0px;
+    text-align: center;
+  }
+  #contatos-right p{
+    margin-left: 0px;
+  }
+  #contatos-right input{
+    margin-left: 0px;
+    width: 99%;
+  }
+  #contatos-right textarea{
+    margin-left: 0px;
+    width: 99%;
+  }
+  #contatos-right button{
+    float: none;
+    cursor: pointer;
+  }
+
+  /*----RODAPÉ----*/
+  footer p{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media all and (max-width:600px){
+  /*--TOPO---*/
+  header{
+    height: 90px;
+  }
+  #logo img{
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-bottom: 21px;
+    width: 200px;
+  }
+
+  /*--MENU-MOBILE--*/
+  #menu-butao{
+    margin-top: 35px;
+  }
+  #menu-mobile li a{
+    font-size: 18px;
+  }
+  #sub-menu-mobile ul li a{
+    font-size: 16px;
+  }
+
+  /*--SLIDE--*/
+  .box-slider, .slider, .slider-item, .slider-item img{
+    width: 100%;
+    height: 220px;
+  }
+
+  /*---PAGINAÇÃO-slide---*/
+  .pager{
+    width: 115px;
+    margin-left: 34.7%;
+    margin-top: 228px;
+  }
+  .pager a{
+    width: 7px;
+    height: 7px;
+  }
+
+  /*---NEXT/PREV-slide---*/
+  #next, #prev{
+    width: 6px;
+    margin-top: 90px;
+    z-index: 999;
+  }
+  #next{
+    position: relative;
+    margin: none;
+    float: right;
+    margin-right: 20px;
+  }
+  #prev{
+    float: left;
+    margin-left: -1px;
+  }
+  #next img{
+    width: 28px;
+  }
+  #prev img{
+    width: 28px;
+  }
+
+  /*---BOX EDITORIAIS---*/
+  .box-editoriais{
+    width: 96%;
+    margin: 2.3%;
+    margin-top: 35px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid  #b22d30;
+  }
+  .container-box h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .box-titulo{
+    height: 60px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .box-texto{
+    height: 240px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  /*---CONTAINER GRAFICO---*/
+  #container-grafico h2{
+    font-size: 21px;
+  }
+  #columnchart_values{
+    width: 50%;
+    padding: 50px;
+    margin-top: 35px;
+    float: left;
+    margin-left: -130px;
+    margin-top: -50px;
+    margin-bottom: -90px;
+  }
+
+  #box-grafico{
+    width: 90%;
+    padding: 0px;
+    float: left;
+    margin-left: 4.5%;
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+  #box-grafico2{
+    width: 90%;
+    padding: 0px;
+    float: left;
+    margin-left: 4.5%;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+  }
+
+  /*----MAPA----*/
+  #map{
+    height: 360px;
+  }
+
+  /*----CONTATOS(left)----*/
+  #container-left{
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  #contatos-left{
+    width: 85%;
+    float: none;
+    margin-top: 110px;
+    margin-bottom: 110px;
+  }
+
+  /*----CONTATOS(right)----*/
+  #container-right{
+    width: 100%;
+    height: auto;
+  }
+  #contatos-right{
+    width: 85%;
+    float: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #contatos-right h2{
+    margin-bottom: 35px;
+  } 
+  #contatos-right p{
+    font-size: 17px;
+    margin-top: 13px;
+  }
+  #contatos-right input{
+    height: 25px;
+  }
+  #contatos-right textarea{
+    height: 130px;
+  }
+}
